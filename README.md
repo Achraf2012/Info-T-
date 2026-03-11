@@ -4,11 +4,9 @@ $$D_{KL}(\mathbb{P} \parallel \mathbb{Q}) = \sup_{T: \Omega \to \mathbb{R}} \lef
 
 1- The objective:
 I applied MINE to a Single-Input Single-Output (SISO) Communication Channel to observe how neural networks learn fundamental information theoretic limits. Specifically, I estimated the capacity of an AWGN Channel under three different signaling regimes:
-$\newline$
+
 *** Gaussian Signaling: The theoratical Shannon Limit is given by $C = \frac{1}{2}\log_2(1 + \text{SNR})$.
-$\newline$
 *** BPSK Modulation: A constellation with a 1 bit entropy ceiling .
-$\newline$
 *** QPSK Modulation: A constellation with a 2-bit entropy ceiling .
 
 2- The result (see results.png):
